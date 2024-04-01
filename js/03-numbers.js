@@ -25,5 +25,24 @@
 // const result = Math.pow(base, power);
 // console.log(result);
 
-console.log(10 ** 3);
+// console.log(10 ** 3);
+
+
+// let base = prompt('введіть число');
+// let power = prompt('тепер міру');
+// base = Number(base);
+// power = Number(power);
+// console.log(base ** power);
+
+
+const colors = ['tomato', 'gray', 'purple', 'green', 'orange'];
+const max = colors.length - 1;
+const min = 0;
+const index = Math.round(Math.random() * (max - min) + min);
+console.log(index);
+const color = colors[index];
+console.log(color);
+document.body.style.backgroundColor = color;
+
+
 
