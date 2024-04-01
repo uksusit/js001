@@ -6,7 +6,9 @@
 
 
 let wtf = prompt('що трапилось?');
-wtf = Number(wtf);
+
 console.log('сталося такє:', wtf);
+wtf = Number(wtf);
+console.log(wtf);
 console.log(typeof wtf);
 
