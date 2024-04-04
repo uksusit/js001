@@ -18,3 +18,16 @@ brand = brand[0] + brand.slice(1).toLowerCase();
 console.log(brand);
 
 
+const blWord1 = 'спам';
+const blWord2 = 'распродажа';
+
+const string1 = 'привет. я поц абдул , ето не спам, купи слона!';
+const string2 = 'сам боль распродажа на неделе, не пропусти';
+
+
+console.log(string1.includes(blWord1));
+console.log(string1.includes(blWord2));
+
+console.log(string2.includes(blWord1));
+console.log(string2.toLowerCase().includes(blWord2));
+
