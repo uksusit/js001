@@ -30,4 +30,8 @@ console.log(string1.includes(blWord2));
 
 console.log(string2.includes(blWord1));
 console.log(string2.toLowerCase().includes(blWord2));
+// або:
+const normalizedString2 = string2.toLowerCase();
+console.log(normalizedString2.includes(blWord2));
+
 
