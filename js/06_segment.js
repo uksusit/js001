@@ -18,3 +18,12 @@ const res2 = number < x1 || number > x2;
 
 console.log(`число ${number} попадає у відрізок до ${x1} або після ${x2} ? `, res2);
 
+
+
+
+const isOnline = true;
+const isFriend = true;
+const isDnd = false;
+
+const canOpenChat = isOnline && isFriend && !isDnd;
+console.log(`можна відкрити чат? `, canOpenChat);
