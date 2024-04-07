@@ -27,3 +27,5 @@ const isDnd = false;
 
 const canOpenChat = isOnline && isFriend && !isDnd;
 console.log(`можна відкрити чат? `, canOpenChat);
+
+
