@@ -28,4 +28,7 @@ const isDnd = false;
 const canOpenChat = isOnline && isFriend && !isDnd;
 console.log(`можна відкрити чат? `, canOpenChat);
 
-
+//тіко як 2 варіанти
+const balance = 100;
+const msg = balance >= 0 ? `позитив ` : 'негатив ';
+console.log(msg);
