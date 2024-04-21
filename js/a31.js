@@ -29,6 +29,9 @@ console.log(lastElement);
 let string = prompt("string");
 let length = prompt("length");
 // let substring;
-  const substring = string.slice(0, length); // Change this 
+let substring = string.slice(0, length); // Change this
+console.log(substring);
 
+substring = substring + "...";
+//  let message = message.slice(0, maxLength);
 console.log(substring);
