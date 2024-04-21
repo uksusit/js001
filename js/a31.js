@@ -26,5 +26,9 @@ console.log(lastElement);
 // Оголошена змінна lastElement
 // Значення змінної lastElement - це рядок "s"
 
+let string = prompt("string");
+let length = prompt("length");
+// let substring;
+  const substring = string.slice(0, length); // Change this 
 
-
+console.log(substring);
