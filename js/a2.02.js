@@ -21,3 +21,4 @@ function checkPassword(password) {
   return "Access denied, wrong password!";
   // Change code above this line
 }
+
