@@ -12,7 +12,7 @@
 // Виклик функції findLongestWord("May the force be with you") повертає force
 // Виклик функції findLongestWord() з випадковим рядком повертає правильне значення
 
-const string = ("The quick brown fox jumped over the lazy dog");
+const string = ("Виклик функції з випадковим рядком повертає правильне значення");
   // Change code below this line
 
   const strArr = string.split(" ");
