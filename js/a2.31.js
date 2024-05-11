@@ -53,3 +53,41 @@ function findNumber(start, end, divisor) {
 
 console.log(findNumber(8, 17, 3));
 
+// --------------- 31 ------------------
+
+
+// Напиши функцію includes(array, value), яка робить те саме, що і метод масиву масив.includes(значення)
+// - перевіряє, чи присутнє в масиві array значення value, повертаючи true, якщо присутнє,
+//  і false в іншому випадку.
+
+// При виконанні цього завдання в тілі функції includes() не можна використовувати метод
+// масив.includes(значення).
+
+// Тобі потрібно реалізувати свою власну логіку для виконання цього завдання.
+//  Розглянь вибір методу ітерації, який пройде по всьому масиву(array),
+//  і на кожній ітерації перевірятиме, чи дорівнює елемент масиву value.Якщо так,
+// поверниtrue, в іншому випадку поверни false.
+
+// Оголошена функція includes(array, value)
+// Виклик includes([1, 2, 3, 4, 5], 3) повертає true
+// Виклик includes([1, 2, 3, 4, 5], 17) повертає false
+// Виклик includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter") повертає true
+// Виклик includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus") повертає false
+// Виклик includes(["apple", "plum", "pear", "orange"], "plum") повертає true
+// Виклик includes(["apple", "plum", "pear", "orange"], "kiwi") повертає false
+// Виклик includes() для випадкового масиву з випадковим value повертає правильний boolean
+// У функції includes використовується for, return, але не метод масиву includes
+
+function includes(array, value) {
+  // Change code below this line
+  for (const iterator of array) {
+    if (iterator === value) {
+      return true;
+    }
+  }
+  return false;
+  // Change code above this line
+}
+
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"));
+
